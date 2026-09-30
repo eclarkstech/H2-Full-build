@@ -1,0 +1,29 @@
+# Local Python environments
+/env_isaaclab/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and editor configuration
+.env
+.env.*
+!.env.example
+/.vscode/
+
+# Machine-specific environment reports and backups
+/h2_documents/environment_before_migration/
+/h2_documents/environment-packages.txt
+/h2_documents/environment-pip-check.txt
+*.log
+
+# Generated simulation and training outputs
+/assets/
+/outputs/
+/logs/
+/runs/
+/checkpoints/

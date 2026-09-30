@@ -1,0 +1,423 @@
+{
+  "source": "https://github.com/unitreerobotics/unitree_ros",
+  "commit": "5994d4faef0a9cadd3287f8de0199a67eeb2a259",
+  "verified_at_utc": "2026-09-30T14:56:30.064437+00:00",
+  "python": "/home/edward/miniconda3/envs/env_isaaclab/bin/python",
+  "models": [
+    {
+      "file": "H2.urdf",
+      "mesh_dependencies": 34,
+      "missing": [],
+      "links": 37,
+      "joints": 36,
+      "movable_joints": 31,
+      "root": "pelvis"
+    },
+    {
+      "file": "H2_dae.urdf",
+      "mesh_dependencies": 53,
+      "missing": [],
+      "links": 37,
+      "joints": 36,
+      "movable_joints": 31,
+      "root": "pelvis"
+    },
+    {
+      "file": "H2_loop.urdf",
+      "mesh_dependencies": 38,
+      "missing": [],
+      "links": 55,
+      "joints": 54,
+      "movable_joints": 37,
+      "root": "pelvis"
+    },
+    {
+      "file": "H2_loop.xml",
+      "mesh_dependencies": 38,
+      "missing": []
+    }
+  ],
+  "dae_texture_dependencies": [],
+  "files": [
+    {
+      "path": "robots/h2_description/H2.urdf",
+      "bytes": 33905,
+      "sha256": "32866f6f2dae8ed79dc622b015160f4f8fc018ce266ce4f84322084ddc741401"
+    },
+    {
+      "path": "robots/h2_description/H2_dae.urdf",
+      "bytes": 34213,
+      "sha256": "9c8b06ba98a240c753b5fd6db21b1aaff30a2d4e7ec081bb6c6c242543265d54"
+    },
+    {
+      "path": "robots/h2_description/H2_loop.urdf",
+      "bytes": 48387,
+      "sha256": "5bf8f8cc30cce3feaf7acca8a727cf5a768ea981a4cac55c547ca2dd49927c42"
+    },
+    {
+      "path": "robots/h2_description/H2_loop.xml",
+      "bytes": 36008,
+      "sha256": "399284179c4b7067b82cc5dc910b832936f35c0d7981dc8954897251f731e458"
+    },
+    {
+      "path": "robots/h2_description/meshes/Link-pitch-L-A3.STL",
+      "bytes": 360784,
+      "sha256": "b1fa54e1503dc29e9f16e714c1f40a86f3e317a881d3d7662c1419d10502318e"
+    },
+    {
+      "path": "robots/h2_description/meshes/Link-pitch-R-A3.STL",
+      "bytes": 361584,
+      "sha256": "aaf6a787d16b6b971926634794d3b3bd5d7cd3443720780663f15037a5ecaf06"
+    },
+    {
+      "path": "robots/h2_description/meshes/head_pitch_link.dae",
+      "bytes": 61192,
+      "sha256": "528e304caca33dee72e6ab36e5fc92575d59f621ec1405c956e220bf2a6b190e"
+    },
+    {
+      "path": "robots/h2_description/meshes/head_pitch_link.stl",
+      "bytes": 216484,
+      "sha256": "209fd2e1d91b088a75571513628688c5423e3e5ea7c92c750ddae4225c8aac53"
+    },
+    {
+      "path": "robots/h2_description/meshes/head_yaw_link.dae",
+      "bytes": 2271404,
+      "sha256": "926d22c0c427f802186c09647a66cd6819cd5acfb0c489adf3784da0f0aaa753"
+    },
+    {
+      "path": "robots/h2_description/meshes/head_yaw_link.stl",
+      "bytes": 766684,
+      "sha256": "02482147dd11cf6f4f36cd599e4beff78b6d3be65aa799cda410d85a646189ac"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_ankle_A_link.STL",
+      "bytes": 347984,
+      "sha256": "32fa65107d904a016990a94edae01eab17ce5a84a0eef02af96056cdbc7a478c"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_ankle_pitch_link.dae",
+      "bytes": 599605,
+      "sha256": "dc73195869a949229b84cef3ae0a70412c2cd77011b1f8e8728b8ae2666c8a31"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_ankle_pitch_link.stl",
+      "bytes": 319184,
+      "sha256": "0b15f8fcbfaece06fbbf16684a96d8a31914ab870c55b292ac18203d7c6c7a62"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_ankle_roll_link.dae",
+      "bytes": 20986,
+      "sha256": "62c24f60d93c226a0437d33d4b4e8b77ce1a453ad9e0c49c9e4a05c3187c5d02"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_ankle_roll_link.stl",
+      "bytes": 12384,
+      "sha256": "65e35f53cf85e55c0c61a6b10e7c2e6e4c3a46b18bf9ce6dffa520ec1e4e5b66"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_elbow_link.dae",
+      "bytes": 892576,
+      "sha256": "a8865006a39f5be48af3930beb443af37d0f265a5d289526936cf57c5186d3bf"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_elbow_link.stl",
+      "bytes": 472684,
+      "sha256": "3da8b8c0a387fd91911a3fb3dda3ce6a0c56903490d9e08b4536216066211b5f"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hand_link.dae",
+      "bytes": 3823247,
+      "sha256": "7a0ff62735042d503498d44cc58c42810edf98896b48b7c62b1997ab89331c56"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hand_link.stl",
+      "bytes": 753684,
+      "sha256": "b326d6cbdeb2ca202feb193b3103f8194fc594e6177e7d1a73791bcea39d4c47"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_pitch_link.dae",
+      "bytes": 2288999,
+      "sha256": "5832e98957cfef9fb71f9e06b777a17348b7ddf6856bc91afeaffa75a053b383"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_pitch_link.stl",
+      "bytes": 1269084,
+      "sha256": "d1bccf3c881baf960ff75c17d570f9a5871ebbf1f8935f4d8873677533d6d3ec"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_roll_link.dae",
+      "bytes": 379069,
+      "sha256": "fa57199eee4f0ee84b541010628e40c542eec2ef7818bf1a16dbe13e24ebb21e"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_roll_link.stl",
+      "bytes": 204384,
+      "sha256": "32c8554cee739281bee25da955f61dcf4fb828c4deeee94b963403c512875265"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_yaw_link.dae",
+      "bytes": 574066,
+      "sha256": "603f9b453f8c19a2b325ad2b864c916bd465183a6512d44b830f7aaa940deda3"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_hip_yaw_link.stl",
+      "bytes": 300884,
+      "sha256": "1222ef2aed7b276e05a86b588d92df934c7feac537ae2491243db2d32fd9aac6"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_knee_link.dae",
+      "bytes": 1354420,
+      "sha256": "664efb0c3b354981e4289e17812d45259b6e5172a14eba51e907dc0bb2849693"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_knee_link.stl",
+      "bytes": 698284,
+      "sha256": "f24801b1dde9fd004b2f2178ef65318364a48daede96ab95c8ea2d979a642219"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_pitch_link.dae",
+      "bytes": 505994,
+      "sha256": "f5fab3499d018edb0fbe9ac3f20d0121aba0583814bf7b731d3204eb03b1544f"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_pitch_link.stl",
+      "bytes": 271484,
+      "sha256": "7d10e524f5124b8dd37d8b9b61f2ae9342f0605bdc87ba49c6953c2863fa32c9"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_roll_link.dae",
+      "bytes": 580295,
+      "sha256": "2629d64e8488bce0b659b5db4656d7c0462bc84c9c1681e005f8024f0e2f268c"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_roll_link.stl",
+      "bytes": 307184,
+      "sha256": "cc86323ffe6477cacc6f6ee2a7e000940432e47ba53d3514716f3539f8c83208"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_yaw_link.dae",
+      "bytes": 544809,
+      "sha256": "66d00f27b1c5cb3511c9b3de4140c1f48a0b2d38fdde4c1a0c1abc06a7a41f8e"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_shoulder_yaw_link.stl",
+      "bytes": 286484,
+      "sha256": "253bde468b2156e13a0172436ab0327001d08b2a7872b729426e2f4a6f70183f"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_pitch_link.dae",
+      "bytes": 183210,
+      "sha256": "3e951dafa4dc3ce5d682032f9e501d0e34927dd63d0e6318aa4fe7986b79803f"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_pitch_link.stl",
+      "bytes": 35084,
+      "sha256": "6ae7cbf9941e3507546c2d568d0bac32b93eaaafaa83117371f5c7363172bcb3"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_roll_link.dae",
+      "bytes": 392926,
+      "sha256": "1f8025c3567c25a76ad6f1a0ee0c5824d5669844f6684a0eea9efc28cbf889cf"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_roll_link.stl",
+      "bytes": 206684,
+      "sha256": "7fed0dde408dd63bec1a5a13721173e66e4a063b68850a2ab7701719da6bec62"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_yaw_link.dae",
+      "bytes": 750200,
+      "sha256": "807bbecc653549cb9771695c06f1aa3ffa84038ceb111eb595df75e52968f47a"
+    },
+    {
+      "path": "robots/h2_description/meshes/left_wrist_yaw_link.stl",
+      "bytes": 147984,
+      "sha256": "c8fc77bf0b8617f9e8405c4a1006280b1605a3b3a130b45428d4be8531d75005"
+    },
+    {
+      "path": "robots/h2_description/meshes/pelvis.dae",
+      "bytes": 1313425,
+      "sha256": "3fc3e0fdb523615b97ef54c1d14a13840b57a54ad5425556c0672caab537b2e1"
+    },
+    {
+      "path": "robots/h2_description/meshes/pelvis.stl",
+      "bytes": 689984,
+      "sha256": "1f2a2e99ce060eb1a25efcbadfdd4424347f58e6d954e023dcfcb05d87c55a4e"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_ankle_A_link.STL",
+      "bytes": 347984,
+      "sha256": "46d6fa85f043e50228b45cc2f6f6f95f22be327e9b68a767417ec5fc1c9ceb06"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_ankle_pitch_link.dae",
+      "bytes": 593779,
+      "sha256": "40c7a14235c3e9af0211b231a3081a6ecb7559176c8d8b3e36567deb2b782ca3"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_ankle_pitch_link.stl",
+      "bytes": 317784,
+      "sha256": "6270e30af526c306e4a1006f7ad9a70fe010ffa8451c9630ff98527a5bdce2d1"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_ankle_roll_link.dae",
+      "bytes": 20959,
+      "sha256": "2662c06b8476cdb8d26ea2b100f2d43f7775cac25f22f1844284585010d8d092"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_ankle_roll_link.stl",
+      "bytes": 12384,
+      "sha256": "27cbf682efac52262a35867ce39c969a56e87e00395a7f29ca4840149cf0a96a"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_elbow_link.dae",
+      "bytes": 906297,
+      "sha256": "5afd274e24d000b3a4f7bffdc73fdce1e4f76cea4dea32371324dbdff94dc6cc"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_elbow_link.stl",
+      "bytes": 477684,
+      "sha256": "421fdb043f2775038c72e692a598f96840f1bd2b898ce19b35e240fe5617abc4"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hand_link.dae",
+      "bytes": 3797121,
+      "sha256": "878ba4627c79dbe16a02cb6eca678a499822417be7c5c361b02573a0824df0d5"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hand_link.stl",
+      "bytes": 754384,
+      "sha256": "8e5d75d26f970b05148436d21973cfe29cc1bc335783cd6e5104d6170bd8a139"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_pitch_link.dae",
+      "bytes": 2295921,
+      "sha256": "7c5228e609cf20d694d7c4803d9969c2a04831a127e7e664494083421c2d500d"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_pitch_link.stl",
+      "bytes": 1278984,
+      "sha256": "33de10c25bee624038bf31bccb41aa84bfea0cd6bca5fcd5dfee8fa84eb0eab1"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_roll_link.dae",
+      "bytes": 381511,
+      "sha256": "4b5e8dd6656323835d85cd9ebfc33352ae2f8e7668acfa17b173bddc05c02db0"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_roll_link.stl",
+      "bytes": 203784,
+      "sha256": "a1bc4cf4a5c2ad261af93c29972dce9bd8a1818c78fea513dec46d25b729b9fc"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_yaw_link.dae",
+      "bytes": 567851,
+      "sha256": "e8258c012ff3058a427c6ec029763cecc0324e475decc6352dcaa779ea58a0ef"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_hip_yaw_link.stl",
+      "bytes": 297484,
+      "sha256": "9095a160b6c5ba60a8460439f748764baee08bf85ef9d05c0bdc14b7a1c66437"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_knee_link.dae",
+      "bytes": 1366181,
+      "sha256": "93805a56b827dbbf12f34fe3f7b32464e1f1c5795167cda4a5da6d5bcb4798a9"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_knee_link.stl",
+      "bytes": 700884,
+      "sha256": "4db181250da6aaec995b4eda88a3729c5144128704c3d949fa9cb5a56f437b1b"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_pitch_link.dae",
+      "bytes": 499369,
+      "sha256": "b4a3117881fd7253679af17721246f2ee266a258e93f1c98681842c07297c0c2"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_pitch_link.stl",
+      "bytes": 271684,
+      "sha256": "e2b725c2592250811135c05004bb5ec6356b357fdf45781cb2affc7e61499cfb"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_roll_link.dae",
+      "bytes": 580972,
+      "sha256": "8822dbc5cd7d0f7fd5935fda2e1d1c73c592213912814624940093ead7718207"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_roll_link.stl",
+      "bytes": 306984,
+      "sha256": "be48510290d600d0656cd6055d2a6c58d94665e2f8210fb39ebed8cfdcf0abed"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_yaw_link.dae",
+      "bytes": 541034,
+      "sha256": "0ce9217ce2ec09cbda889443eb5eac68bc2ea95c1b6d29d517ca2c3b07d619c3"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_shoulder_yaw_link.stl",
+      "bytes": 284684,
+      "sha256": "78b6403fc846c6f64cd6740ec3432f1933635724f988313fdf848063e261c73d"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_pitch_link.dae",
+      "bytes": 181690,
+      "sha256": "56ad9d609fbc7983899d76176ac7d070d153414e39b92ddf339ba2800afd8078"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_pitch_link.stl",
+      "bytes": 35084,
+      "sha256": "216abd2755c2288dd408afb1b59867cdac3e22ef7a5ee111b54f456b38b25074"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_roll_link.dae",
+      "bytes": 393287,
+      "sha256": "ae766ee03643215417715151626429ecb9abef59a573682a7235eb72b857a943"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_roll_link.stl",
+      "bytes": 206584,
+      "sha256": "545475c0f7377661a9c67a983f4017985578e805045d2d7b42df8d37c5641d7d"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_yaw_link.dae",
+      "bytes": 747154,
+      "sha256": "f293b341d5ed21b554bcdb9a9dbf85bfde46b363723b8a4ab33803d71c5b56ba"
+    },
+    {
+      "path": "robots/h2_description/meshes/right_wrist_yaw_link.stl",
+      "bytes": 147284,
+      "sha256": "c13910f88609dd2b801c1398150ceb6c82f65ca308bc8e2878f19ea9a3dabda5"
+    },
+    {
+      "path": "robots/h2_description/meshes/torso_link.dae",
+      "bytes": 951369,
+      "sha256": "4dc7569dd84407981f2105f846d732d606e2f27cd9e486ee32fb7205a88464cb"
+    },
+    {
+      "path": "robots/h2_description/meshes/torso_link.stl",
+      "bytes": 526884,
+      "sha256": "0f0c12bddbe2e29df43f38fbaeb3a65c08d43123fbb62379a1cc58e9c6df47b5"
+    },
+    {
+      "path": "robots/h2_description/meshes/waist_roll_link.dae",
+      "bytes": 22480,
+      "sha256": "ed2eb13c594c899bb2f333f5d95abe8173302b267a398c35097a49ec0bfda3a6"
+    },
+    {
+      "path": "robots/h2_description/meshes/waist_roll_link.stl",
+      "bytes": 13084,
+      "sha256": "e229c2617f2c1ed26d29b44bc45cfe9622cfd0dcb6974f1896e4a21941706c7c"
+    },
+    {
+      "path": "robots/h2_description/meshes/waist_yaw_link.dae",
+      "bytes": 29652,
+      "sha256": "a4ceb518d156efd0ab7a9e6905653646cd73f02d8465a6e6511c73304820583a"
+    },
+    {
+      "path": "robots/h2_description/meshes/waist_yaw_link.stl",
+      "bytes": 20684,
+      "sha256": "385f8caecd05d046aabd3cd4721e2d23a27f190646a247f71c8d0c19114456a2"
+    }
+  ]
+}
